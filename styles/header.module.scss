@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    min-height: 70px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 60%);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    svg {
+        width: 50px;
+    }
+    @media screen and (min-width: 1025px) {
+        display: none;
+    }
+}

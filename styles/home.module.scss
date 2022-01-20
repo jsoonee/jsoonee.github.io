@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    min-height: 100vh;
+    @media screen and (min-width: 1025px) {
+        padding: 3rem 2.5rem;
+        flex-flow: nowrap;
+    }
+}
